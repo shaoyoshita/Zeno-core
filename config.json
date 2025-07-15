@@ -1,0 +1,20 @@
+{
+    "site_name": "ZENO CORE",
+    "version": "1.0.0",
+    "author": "squidfire",
+    "features": {
+        "rss_feed": true,
+        "daily_reports": true,
+        "ai_voice": true,
+        "image_ai": true,
+        "realtime_stats": true,
+        "security_mode": "active",
+        "auto_update": true
+    },
+    "api_keys": {
+        "maps": "YOUR_MAP_API_KEY",
+        "satellite": "YOUR_SATELLITE_KEY"
+    },
+    "default_language": "fr",
+    "theme": "dark"
+}
