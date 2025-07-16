@@ -41,4 +41,12 @@ dependencies {
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 // ZENO_AUDIO / VOICE
+// --- Extensions Android (Core)
+implementation 'androidx.core:core-ktx:1.12.0'
+
+// --- Voix IA + Audio (ZENO_VOICE + ZENO_AUDIO)
+implementation 'androidx.media:media:1.6.0'
+
+// --- Logger IA (ZENO_REFLEX)
+implementation 'com.jakewharton.timber:timber:5.0.1'
     implementation 'android.media:media:1.0.0' // Pour MediaPlayer si besoin
