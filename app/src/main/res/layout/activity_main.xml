@@ -3,25 +3,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
     android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/zenoText"
-        android:layout_width="wrap_content"
+        android:id="@+id/zenoOutput"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Bienvenue dans ZENO 🧠"
-        android:textSize="24sp"
-        android:layout_gravity="center_horizontal"
+        android:text="Bienvenue dans ZENO_CORE"
+        android:textSize="20sp"
+        android:gravity="center"
         android:padding="16dp" />
 
     <Button
-        android:id="@+id/startButton"
-        android:layout_width="wrap_content"
+        android:id="@+id/buttonSpeak"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lancer ZENO"
-        android:layout_gravity="center_horizontal"
-        android:padding="12dp" />
+        android:text="🗣️ Lancer Voix IA" />
 
+    <Button
+        android:id="@+id/buttonGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚙️ Générer réponse IA"
+        android:layout_marginTop="16dp" />
 </LinearLayout>
