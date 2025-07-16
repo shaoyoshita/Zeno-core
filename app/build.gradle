@@ -40,3 +40,5 @@ dependencies {
     implementation 'androidx.activity:activity-ktx:1.7.2'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+// ZENO_AUDIO / VOICE
+    implementation 'android.media:media:1.0.0' // Pour MediaPlayer si besoin
